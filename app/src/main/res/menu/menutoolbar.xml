@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:titleTextColor="#F3EAEA">
+    <item
+        android:id="@+id/tienda"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="Tienda"/>
+    <item
+        android:id="@+id/Registro"
+
+        android:title="Registrate"/>
+    <item
+        android:id="@+id/login"
+
+        android:title="Inicio de sesion"/>
+    <item
+        android:id="@+id/perfil"
+
+        android:title="Perfil"/>
+    <item
+        android:id="@+id/MiBiblioteca"
+
+        android:title="MiBiblioteca"/>
+</menu>

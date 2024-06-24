@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".perfilF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Perfil"
+            android:textColor="#130F0F"
+            android:textSize="34sp" />
+        <TextView
+            android:id="@+id/nombreT"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="nombre:" />
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/apellidopT"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:text="apellido patermo" />
+        <TextView
+            android:id="@+id/apellidop"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+        <TextView
+            android:id="@+id/apellidomT"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="apellido materno" />
+        <TextView
+            android:id="@+id/apellidom"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/CerraSecion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerrar Seccion"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/EliminarCuenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="eliminar Cuenta" />
+
+    </LinearLayout>
+
+</FrameLayout>
